@@ -11,9 +11,12 @@ else request for feature.
 
 ### Features
 
-| Feature               | Description                                                         |
-| --------------------- | ---------------------------------                                   |  
-| Add Participants      | Add multiple participants simultaneously                            |             
-| Remove Particpants    | Add multiple participants simultaneously                            |
+| Feature               | Description                                              |
+| --------------------- | ---------------------------------                        |  
+| Add participants      | Add multiple participants                                |             
+| Remove particpants    | Remove multiple participants                             |
+| Sent bulk messages    | Sent messages to multiple people (customized texts)      |
+| Get admins            | Get admins of the group                                  |
+| Get participants      | Get all participants in the group                        |
  
 

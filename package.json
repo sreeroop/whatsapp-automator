@@ -1,0 +1,17 @@
+{
+  "name": "whatsapp-automator",
+  "version": "1.0.0",
+  "description": "scripts which helps to do the job quickly",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Sreeroop",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "nodemon": "^2.0.20",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.18.2"
+  }
+}

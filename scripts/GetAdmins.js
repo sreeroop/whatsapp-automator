@@ -2,8 +2,10 @@ const qrcode = require("qrcode-terminal");
 const { Client } = require("whatsapp-web.js");
 const fs = require("fs");
 
-const OUTPUT_FILE_PATH = "outputs/output.csv"
+//group name
 const GROUP_NAME = "Chumma";
+//output path
+const OUTPUT_FILE_PATH = "outputs/output.csv"
 
 const client = new Client({ authStrategy: new LocalAuth() });
 
@@ -18,6 +20,7 @@ client.on("ready", async () => {
     const outstream = fs.createWriteStream(OUTPUT_FILE_PATH, { flags: 'a' })
     client.getChats()
         .then((chats) => {
+            //get chat
             const group = chats.find((chat) => chat.name == GROUP_NAME);
             const participants = group.participants;
             participants.forEach((participant) => {

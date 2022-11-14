@@ -8,7 +8,7 @@ const { exit } = require("process");
 /*
 1) Give group name in GROUP_NAME.
 2) put the numbers in contacts.csv in data folder.
-3) Run the command "node CreateGrpAndAdd.js"
+3) Run the command "node scripts/BatchRemove.js"
 4) Sit back and enjoy
 */
 
